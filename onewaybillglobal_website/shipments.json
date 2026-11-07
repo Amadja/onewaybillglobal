@@ -1,0 +1,170 @@
+{
+  "OWB-UG-260927-001": {
+    "tracking_number": "OWB-UG-260927-001",
+    "status": "In Transit",
+    "origin": "Kampala, Uganda",
+    "destination": "Dubai, UAE",
+    "service": "International Air Freight",
+    "package_description": "Precious material",
+    "package_weight": "25 kg",
+    "carrier": "Kenya Airways Cargo",
+    "events": [
+      {
+        "title": "Shipment received",
+        "location": "Warehouse, Entebbe, Uganda",
+        "date": "28 Sep 2026",
+        "time": "09:11",
+        "completed": true
+      },
+      {
+        "title": "Departed origin facility",
+        "location": "EBB Airport, Uganda",
+        "date": "28 Sep 2026",
+        "time": "15:05",
+        "completed": true
+      },
+      {
+        "title": "Preparing for international departure",
+        "location": "Nairobi, Kenya",
+        "date": "28 Sep 2026",
+        "time": "16:13",
+        "current": true,
+        "alert": true,
+        "description": "Pending completion and verification of the required documentation."
+      },
+      {
+        "title": "Arrived at destination",
+        "location": "Dubai, UAE",
+        "date": "Pending"
+      }
+    ]
+  },
+  "OWB-UG-260927-002": {
+    "tracking_number": "OWB-UG-260927-002",
+    "status": "Delivered",
+    "origin": "Kampala, Uganda",
+    "destination": "Dubai, UAE",
+    "service": "Express Air Freight",
+    "events": [
+      {
+        "title": "Shipment received",
+        "location": "Kampala, Uganda",
+        "date": "22 Sep 2026",
+        "time": "08:40",
+        "completed": true
+      },
+      {
+        "title": "Departed origin facility",
+        "location": "Kampala, Uganda",
+        "date": "22 Sep 2026",
+        "time": "14:20",
+        "completed": true
+      },
+      {
+        "title": "Arrived at transit hub",
+        "location": "Nairobi, Kenya",
+        "date": "23 Sep 2026",
+        "time": "07:10",
+        "completed": true
+      },
+      {
+        "title": "Departed for destination",
+        "location": "Nairobi, Kenya",
+        "date": "23 Sep 2026",
+        "time": "18:35",
+        "completed": true
+      },
+      {
+        "title": "Delivered",
+        "location": "Dubai, UAE",
+        "date": "25 Sep 2026",
+        "time": "16:05",
+        "current": true
+      }
+    ]
+  },
+  "GRC-UG-271215221": {
+    "tracking_number": "GRC-UG-271215221",
+    "status": "In Warehouse",
+    "origin": "DRC",
+    "destination": "Entebbe, Uganda",
+    "service": "Warehouse Storage",
+    "package_description": "Precious Metal",
+    "package_weight": "168 kg",
+    "customer": {
+      "name": "Ares Group Sarl - RDC",
+      "import_permit": "A1310723W",
+      "address": "144 AVENUE DU 04 JANVIER, KINDU, MANIEMA RDC",
+      "website": "https://aresgroup.sarl.fr/",
+      "phone": "+243904429804"
+    },
+    "warehouse": {
+      "location": "Garamba Warehouse, Entebbe, Uganda",
+      "entry_date": "28 Sep 2026",
+      "entry_time": "09:00",
+      "free_storage_days": 5,
+      "daily_rate_per_kg_usd": 3,
+      "formula": "Charge = max((days_in_warehouse - 5), 0) * weight_kg * 3",
+      "storage_fee_usd": 0
+    },
+    "events": [
+      {
+        "title": "Goods received at warehouse",
+        "location": "Garamba Warehouse, Entebbe, Uganda",
+        "date": "28 Sep 2026",
+        "time": "09:00",
+        "completed": true,
+        "current": true
+      },
+      {
+        "title": "Storage fee accrual starts",
+        "location": "Garamba Warehouse, Entebbe, Uganda",
+        "date": "03 Oct 2026",
+        "time": "09:00",
+        "description": "Warehouse charges begin after 5 free days."
+      }
+    ]
+  },
+  "GRC-UG-260915231": {
+    "tracking_number": "GRC-UG-260915231",
+    "status": "In Warehouse",
+    "origin": "DRC",
+    "destination": "Entebbe, Uganda",
+    "service": "Warehouse Storage",
+    "package_description": "Precious Metal",
+    "package_weight": "1000 kg",
+    "customer": {
+      "name": "ROGER NGANDU",
+      "import_permit": null,
+      "address": null,
+      "website": null,
+      "phone": "+243990480832"
+    },
+    "warehouse": {
+      "location": "Garamba Warehouse, Entebbe, Uganda",
+      "entry_date": "15 Sep 2026",
+      "entry_time": "09:00",
+      "free_storage_days": 5,
+      "daily_rate_per_kg_usd": 3,
+      "formula": "Charge = max((days_in_warehouse - 5), 0) * weight_kg * 3",
+      "storage_fee_usd": 4032
+    },
+    "events": [
+      {
+        "title": "Goods received at warehouse",
+        "location": "Garamba Warehouse, Entebbe, Uganda",
+        "date": "15 Sep 2026",
+        "time": "09:00",
+        "completed": true,
+        "current": true
+      },
+      {
+        "title": "Storage fee accrual starts",
+        "location": "Garamba Warehouse, Entebbe, Uganda",
+        "date": "20 Sep 2026",
+        "time": "09:00",
+        "description": "Warehouse charges begin after 5 free days."
+      }
+    ]
+  }
+}

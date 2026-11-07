@@ -1,0 +1,2 @@
+#shipment.warehouse-route-pending .summary{grid-template-columns:1fr}
+#shipment.warehouse-route-pending .summary div:not(:first-child){display:none}
